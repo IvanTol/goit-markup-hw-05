@@ -394,7 +394,7 @@ header {
 }
 
 .masters-item:hover .submenu {
-  display: block;
+  display: flex;
 }
 
 
