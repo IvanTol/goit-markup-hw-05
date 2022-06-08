@@ -104,10 +104,6 @@ header {
   justify-content: start;
 }
 
-.current {
-  color: var(--accent-color);
-}
-
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -121,19 +117,37 @@ header {
   margin-left: 50px;
 }
 
-.site-nav .link {
+.link {
+  position: relative;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
-.vizually-hidden {
+.link.current {
+  color: var(--accent-color);
+}
+
+.link.current::after {
+  content: '';
+  
   position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  background-color: var(--accent-color);
+  
+}
+
+
+.vizually-hidden {
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
@@ -393,9 +407,6 @@ header {
   display: block;
 }
 
-.masters-item:hover .submenu {
-  display: flex;
-}
 
 
 .submenu {
