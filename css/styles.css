@@ -288,11 +288,15 @@ header {
 }
 
 .modal-close-btn {
+  display: block;
   border-radius: 50%;
   position: absolute;
   top: 8px;
   right: 8px;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
+  padding: 9px 9px 10px 10px;
 }
 
 /* -----------------блок секций (чем мы занимаемся)------------------- */
