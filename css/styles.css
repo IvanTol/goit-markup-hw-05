@@ -122,14 +122,13 @@ header {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
 .link:focus {
   color: var(--accent-color);
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link.current {
@@ -242,15 +241,15 @@ header {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
   color: var(--primary-text-color);
   background-color: var(--hero-text-color);
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -539,7 +538,10 @@ header {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #fff;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-soc-icon {
@@ -549,9 +551,6 @@ header {
 .link-svg:hover,
 .link-svg:focus {
   background-color: var(--accent-color);
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-svg:hover .svg-soc-icon,
@@ -579,15 +578,15 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-svg-logo:hover,
 .link-svg-logo:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ---------------------------подвал (footer)------------------------- */
@@ -643,7 +642,7 @@ header {
 }
 
 .footerlogo {
-  color: #ffffff;
+  color: #fff;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -687,6 +686,9 @@ header {
   border-radius: 50%;
   fill: var(--primary-white-color);
   background: rgba(255, 255, 255, 0.1);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-network-footer:first-child {
@@ -697,9 +699,6 @@ header {
 .link-network-footer:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*---------------------------Стили Портфолио------------------------- */
@@ -735,6 +734,9 @@ header {
 
   border: 1px solid transparent;
   border-radius: 4px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button:hover,
@@ -743,9 +745,6 @@ button:focus {
   color: var(--primary-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .workin {
@@ -792,9 +791,6 @@ button:focus {
 .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-conteiner:hover .submenu-portfolio,
